@@ -16,7 +16,7 @@ config = {
 
 def read_data():
     train_ds, val_ds = tf.keras.utils.image_dataset_from_directory(
-        "./images/flower_photos",
+        "./flower_photos",
         validation_split=0.2,
         subset="both",
         seed=42,
