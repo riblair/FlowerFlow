@@ -1,1 +1,4 @@
-flower_photos/*
+/images/*
+*.png
+dataPrinting.py
+bestModel.keras
